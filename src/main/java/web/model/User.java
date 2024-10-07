@@ -29,7 +29,7 @@ public class User {
     @Column(name = "job")
     private String job;
 
-    @Column(name = "yearOfBirth", nullable = false)
+    @Column(name = "year_of_birth", nullable = false)
     @Min(value = 1900, message = "Год рождения не может быть меньше 1900")
     private int yearOfBirth;
 
