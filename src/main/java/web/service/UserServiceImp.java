@@ -25,7 +25,7 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    public User findById(long id) {
+    public User findById(Long id) {
         return userDao.findById(id);
     }
 
@@ -43,7 +43,7 @@ public class UserServiceImp implements UserService {
 
     @Override
     @Transactional
-    public void delete(long id) {
+    public void delete(Long id) {
         userDao.delete(id);
     }
 }
