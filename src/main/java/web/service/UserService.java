@@ -9,11 +9,11 @@ import java.util.List;
 public interface UserService {
     List<User> findAll();
 
-    User findById(long id);
+    User findById(Long id);
 
     void save(User user);
 
     void update(User user);
 
-    void delete(long id);
+    void delete(Long id);
 }
